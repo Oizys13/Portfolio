@@ -30,8 +30,8 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Redux",
-      Image: "/redux.png",
+      skill_name: "Python",
+      Image: "/python.png",
       width: 80,
       height: 80,
     },
@@ -135,17 +135,12 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Redux",
-      Image: "/redux.png",
+      skill_name: "QT Designer",
+      Image: "/QT designer.png",
       width: 80,
       height: 80,
     },
-    {
-      skill_name: "React Query",
-      Image: "/reactquery.png",
-      width: 80,
-      height: 80,
-    },
+    
     {
       skill_name: "Type Script",
       Image: "/ts.png",
@@ -168,8 +163,8 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Express js",
-      Image: "/express.png",
+      skill_name: "Python",
+      Image: "/python.png",
       width: 80,
       height: 80,
     },
@@ -204,8 +199,8 @@ export const Skill_data = [
       height: 70,
     },
     {
-      skill_name: "Graphql",
-      Image: "/graphql.png",
+      skill_name: "Django",
+      Image: "/django.png",
       width: 80,
       height: 80,
     },
@@ -213,8 +208,8 @@ export const Skill_data = [
   
   export const Full_stack = [
     {
-      skill_name: "React Native",
-      Image: "/ReactNative .png",
+      skill_name: "Django",
+      Image: "/django.png",
       width: 70,
       height: 70,
     },

@@ -15,7 +15,7 @@ const NavBar = () => {
             height={70}
             className='cursor-pointer hover:animate-slowspin'
             />
-            <span className='font-bold w-[565px] ml-[10px] hidden md:block text-gray-300'>
+            <span className='font-bold w-[475px] ml-[10px] hidden md:block text-gray-300'>
                 BOURRICH Mohamed Reda
             </span>
             </a>
