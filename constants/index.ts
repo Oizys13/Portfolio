@@ -48,7 +48,7 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Next js 13",
+      skill_name: "Next js 14",
       Image: "/next.png",
       width: 80,
       height: 80,
@@ -82,17 +82,21 @@ export const Skill_data = [
   
   export const Socials = [
     {
-      name: "Discord",
-      src: "/instagram.svg",
+      name: "Linkedin",
+      src: "/Linkedin.png",
+      url: "https://www.facebook.com/mohamedrida.bourrich/",
     },
     {
       name: "Facebook",
       src: "/facebook.svg",
+      url: "https://www.facebook.com/mohamedrida.bourrich/",
     },
     {
-      name: "Instagram",
-      src: "/discord.svg",
+      name: "Github",
+      src: "/github.svg",
+      url: "https://github.com/Oizys13",
     },
+    
   ];
   
   
@@ -193,8 +197,8 @@ export const Skill_data = [
       height: 70,
     },
     {
-      skill_name: "Prisma",
-      Image: "/prisma.webp",
+      skill_name: "SQL Server",
+      Image: "/sqlserver.png",
       width: 70,
       height: 70,
     },
@@ -214,8 +218,8 @@ export const Skill_data = [
       height: 70,
     },
     {
-      skill_name: "Tauri",
-      Image: "/tauri.svg",
+      skill_name: "Oracle",
+      Image: "/oracle.png",
       width: 70,
       height: 70,
     },
@@ -239,8 +243,8 @@ export const Skill_data = [
   
   export const Other_skill = [
     {
-      skill_name: "Go",
-      Image: "/go.png",
+      skill_name: "Artificial Inteligence",
+      Image: "/ai.png",
       width: 60,
       height: 60,
     },

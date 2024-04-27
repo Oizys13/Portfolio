@@ -1,4 +1,5 @@
 import { Socials } from "@/constants";
+import Link from 'next/link'
 import Image from 'next/image'
 import React from 'react'
 
@@ -9,13 +10,13 @@ const NavBar = () => {
         <div className='w-full h-full flex flex-row items-center justify-between m-auto px-[10px]'>
             <a href="#about-me" className='h-auto w-auto flex flex-row items-center'>
             <Image 
-            src="/NavLogo.png"
+            src="/logo.svg"
             alt="logo"
             width={70}
             height={70}
             className='cursor-pointer hover:animate-slowspin'
             />
-            <span className='font-bold w-[475px] ml-[10px] hidden md:block text-gray-300'>
+            <span className='font-bold w-[565px] ml-[10px] hidden md:block text-gray-300'>
                 BOURRICH Mohamed Reda
             </span>
             </a>
@@ -36,14 +37,18 @@ const NavBar = () => {
             <div className='flex-grow'></div>
             
             <div className='flex flex-row gap-5'>
-                {Socials.map((social) => 
-                    <Image
-                    src={social.src}
-                    alt={social.name}
-                    key={social.name}
-                    width={24}
-                    height={24}
-                    />
+                {Socials.map((social) =>
+                    <Link href={social.url} passHref legacyBehavior>
+                        <a target="_blank">
+                            <Image
+                            src={social.src}
+                            alt={social.name}
+                            key={social.name}
+                            width={24}
+                            height={24}
+                            />
+                        </a>
+                    </Link>    
                 )}
             </div>
         </div>
